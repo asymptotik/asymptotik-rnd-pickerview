@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="4514" systemVersion="13C64" targetRuntime="iOS.CocoaTouch.iPad" propertyAccessControl="none" useAutolayout="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3747"/>
+    </dependencies>
+    <scenes>
+        <!--Atk View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="AtkViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="57K-DX-k9K"/>
+                        <viewControllerLayoutGuide type="bottom" id="THc-Ea-xhY"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" verticalHuggingPriority="750" text="Name" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Dww-3D-lg8">
+                                <rect key="frame" x="20" y="40" width="728" height="20"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.67126205800000005" green="1" blue="0.45872705450000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" verticalHuggingPriority="750" text="Street" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TMp-E4-CZD">
+                                <rect key="frame" x="20" y="106" width="728" height="20"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.67126205800000005" green="1" blue="0.45872705450000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" verticalHuggingPriority="750" text="City" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="URm-DU-5mo">
+                                <rect key="frame" x="20" y="172" width="728" height="20"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.67126205800000005" green="1" blue="0.45872705450000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" adjustsFontSizeToFit="NO" minimumFontSize="14" translatesAutoresizingMaskIntoConstraints="NO" id="ps7-uP-qBA">
+                                <rect key="frame" x="20" y="68" width="728" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" adjustsFontSizeToFit="NO" minimumFontSize="14" translatesAutoresizingMaskIntoConstraints="NO" id="vaI-LR-cAf">
+                                <rect key="frame" x="20" y="134" width="728" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" adjustsFontSizeToFit="NO" minimumFontSize="14" translatesAutoresizingMaskIntoConstraints="NO" id="8xn-8p-0oR">
+                                <rect key="frame" x="20" y="200" width="728" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" adjustsFontSizeToFit="NO" minimumFontSize="14" translatesAutoresizingMaskIntoConstraints="NO" id="zn8-1z-9NA">
+                                <rect key="frame" x="20" y="266" width="728" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" verticalHuggingPriority="750" text="State" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gUa-Rv-aSM">
+                                <rect key="frame" x="20" y="238" width="728" height="20"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.67126205800000005" green="1" blue="0.45872705450000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="TMp-E4-CZD" secondAttribute="trailing" constant="20" id="1n1-M5-OBL"/>
+                            <constraint firstItem="Dww-3D-lg8" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="40" id="24w-l5-sMg"/>
+                            <constraint firstItem="URm-DU-5mo" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="20" id="2Aa-DF-oK9"/>
+                            <constraint firstAttribute="trailing" secondItem="URm-DU-5mo" secondAttribute="trailing" constant="20" id="APP-pn-2HX"/>
+                            <constraint firstItem="gUa-Rv-aSM" firstAttribute="top" secondItem="8xn-8p-0oR" secondAttribute="bottom" constant="8" id="Edc-GW-xVQ"/>
+                            <constraint firstItem="TMp-E4-CZD" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="20" id="Ncp-Yo-3D3"/>
+                            <constraint firstItem="vaI-LR-cAf" firstAttribute="top" secondItem="TMp-E4-CZD" secondAttribute="bottom" constant="8" id="ODe-x1-Bxh"/>
+                            <constraint firstAttribute="trailing" secondItem="vaI-LR-cAf" secondAttribute="trailing" constant="20" id="OSf-gW-8W5"/>
+                            <constraint firstItem="URm-DU-5mo" firstAttribute="top" secondItem="vaI-LR-cAf" secondAttribute="bottom" constant="8" id="RZH-fE-C9h"/>
+                            <constraint firstItem="8xn-8p-0oR" firstAttribute="top" secondItem="URm-DU-5mo" secondAttribute="bottom" constant="8" id="Sqd-bs-9Bt"/>
+                            <constraint firstAttribute="trailing" secondItem="ps7-uP-qBA" secondAttribute="trailing" constant="20" id="UB0-cm-Eu3"/>
+                            <constraint firstItem="ps7-uP-qBA" firstAttribute="top" secondItem="Dww-3D-lg8" secondAttribute="bottom" constant="8" id="XiO-ul-GId"/>
+                            <constraint firstItem="ps7-uP-qBA" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="20" id="a3d-Pt-0lX"/>
+                            <constraint firstItem="zn8-1z-9NA" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="20" id="bWi-DI-oY7"/>
+                            <constraint firstItem="8xn-8p-0oR" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="20" id="bXJ-eI-UbB"/>
+                            <constraint firstAttribute="trailing" secondItem="8xn-8p-0oR" secondAttribute="trailing" constant="20" id="dvc-Nf-97a"/>
+                            <constraint firstItem="vaI-LR-cAf" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="20" id="g8H-dL-Hef"/>
+                            <constraint firstAttribute="trailing" secondItem="gUa-Rv-aSM" secondAttribute="trailing" constant="20" id="gIA-P4-YMn"/>
+                            <constraint firstItem="zn8-1z-9NA" firstAttribute="top" secondItem="gUa-Rv-aSM" secondAttribute="bottom" constant="8" id="lG3-nm-ugf"/>
+                            <constraint firstAttribute="trailing" secondItem="Dww-3D-lg8" secondAttribute="trailing" constant="20" id="n8r-xp-h1u"/>
+                            <constraint firstItem="TMp-E4-CZD" firstAttribute="top" secondItem="ps7-uP-qBA" secondAttribute="bottom" constant="8" id="sOQ-fr-Jgp"/>
+                            <constraint firstItem="gUa-Rv-aSM" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="20" id="vaZ-ig-IiQ"/>
+                            <constraint firstItem="Dww-3D-lg8" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="20" id="w7S-bM-6Zd"/>
+                            <constraint firstAttribute="trailing" secondItem="zn8-1z-9NA" secondAttribute="trailing" constant="20" id="yeX-ab-Mxp"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="txtCity" destination="8xn-8p-0oR" id="J2k-4x-gsV"/>
+                        <outlet property="txtName" destination="ps7-uP-qBA" id="Wgw-wr-Xwi"/>
+                        <outlet property="txtState" destination="zn8-1z-9NA" id="DrM-v0-yQm"/>
+                        <outlet property="txtStreet" destination="vaI-LR-cAf" id="aID-CL-lao"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar" statusBarStyle="blackOpaque"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination"/>
+    </simulatedMetricsContainer>
+</document>
